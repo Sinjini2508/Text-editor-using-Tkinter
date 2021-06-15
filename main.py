@@ -17,7 +17,7 @@ def welcome_screen():
     quote.place(relx=0.5, rely=0.1, anchor = "center")
     name = tkinter.Label(window, text=" ~ Kim Namjoon", font=("Times New Roman", 13), bg="#470158", fg="#ffc0cb")
     name.place(relx=0.5, rely=0.15, anchor="center")
-    # Some motivational quotations to enhance the window
+    # Some motivational quotations to enhance the appearance of the window
 
     heading = tkinter.Label(window, text="Erudite", font=heading_font, bg="#470158", fg="#ffc0cb")
     heading.place(relx=0.5, rely=0.35, anchor="center")
